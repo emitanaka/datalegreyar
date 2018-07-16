@@ -1,0 +1,23 @@
+Package: datalegreyar
+Type: Package
+Title:  A tool to easily insert datalegreya for html output.
+Version: 0.1.0
+Authors@R: c(
+    person("Emi", "Tanaka", email = "dr.emi.tanaka@gmail.com", role = c("aut", "cre")) )
+Description: Datalegreya is a typeface which can interweave data curves with text.
+    This package allows easy insertion of datalegreya font for html output such as Rmarkdown, xaringan, ioslides and shiny app. 
+Depends:
+    R (>= 3.1.3)
+Imports:
+    rmarkdown (>= 1.6.0),
+    knitr,
+    stringr,
+    htmltools
+URL: https://github.com/emitanaka/datalegreyar
+BugReports: https://github.com/emitanaka/datalegreyar/issues
+VignetteBuilder: knitr
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
+Roxygen: list(markdown = TRUE, roclets=c('rd', 'collate', 'namespace'))

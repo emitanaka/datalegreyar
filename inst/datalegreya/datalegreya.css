@@ -1,0 +1,42 @@
+@font-face {
+	font-family: FigsFaceThin;
+	src: url("font-files/Datalegreya-Thin.otf") format("opentype");
+}
+@font-face {
+	font-family: FigsFaceGradient;
+	src: url("font-files/Datalegreya-Gradient.otf") format("opentype");
+}
+@font-face {
+	font-family: FigsFaceDot;
+	src: url("font-files/Datalegreya-Dot.otf") format("opentype");
+}
+
+body {
+	-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on;
+	-moz-font-feature-settings: "kern" on, "liga" on, "calt" on;
+	-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on;
+	-ms-font-feature-settings: "kern" on, "liga" on, "calt" on;
+	font-feature-settings: "kern" on, "liga" on, "calt" on;
+	font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.figsthin {
+font-family: 'FigsFaceThin';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.figsgradient {
+font-family: 'FigsFaceGradient';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.figsdot {
+font-family: 'FigsFaceDot';
+    font-weight: normal;
+    font-style: normal;
+}
