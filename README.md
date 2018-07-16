@@ -22,4 +22,4 @@ devtools::install_github('emitanaka/datalegreyar')
 Example
 -------
 
-![](datalegreya)
+![](datalegreya.png)
